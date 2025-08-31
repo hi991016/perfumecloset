@@ -1,0 +1,16 @@
+{
+  "name": "PFM",
+  "version": "1.0.0",
+  "description": "",
+  "author": "PFM",
+  "license": "",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-concat": "latest",
+    "gulp-pleeease": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-connect-php":"latest"
+  }
+}

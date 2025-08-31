@@ -1,0 +1,448 @@
+.p-cosmetics{
+	background-color: #fff;
+}
+@media only screen and (max-width: 812px) {
+	.p-cosmetics{
+		padding: 100px 0px 59px 0px;
+	}
+}
+.c-footer{
+	border-top: 1px solid #E5E5E5;
+	background-color: #fff;
+}
+.p-cosmetics .c-title{
+	font-size:2rem;
+	margin-bottom: 10px;
+	letter-spacing: 1.0px;
+}
+.p-cosmetics .c-info__subtitle{
+	font-size:3.4rem;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+@media only screen and (max-width: 812px) {
+	.c-header {
+	    padding: 30px;
+	}
+	.p-cosmetics .c-title{
+		font-size:1.6rem;
+		margin-bottom: 5px;
+	}
+	.p-cosmetics .c-info__subtitle{
+		font-size:2.2rem;
+	}
+}
+.p-cosmetics_image{
+	text-align:center;
+	margin: 80px 0 150px 0;
+}
+@media only screen and (max-width: 450px), (max-width: 812px) and (orientation: landscape) {
+  .c-header {
+    padding: 25px;
+  }
+}
+@media only screen and (max-width: 812px) {
+	.p-cosmetics_image{
+		margin: 30px 0 80px 0;
+	}
+	.p-cosmetics_image img{
+		width: 100%;
+	}
+}
+.p-cosmetics_lineup{
+display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-bottom: 130px;
+}
+@media only screen and (max-width: 812px) {
+	.p-cosmetics_lineup{
+		flex-wrap:wrap;
+		justify-content: center;
+		padding: 0 27px;
+		margin-bottom: 10px;
+		-webkit-box-sizing: border-box;    box-sizing: border-box;
+	}
+}
+.p-cosmetics_lineup .box{
+	width: 31.7%;
+}
+@media only screen and (max-width: 812px) {
+	.p-cosmetics_lineup .box{
+		width: 100%;
+		text-align: center;
+	}
+	.p-cosmetics_lineup .box img{
+		max-width:100%;
+	}
+}
+.p-cosmetics_lineup .box a{
+	text-decoration: none;
+	display: block;
+	height: 100%;
+	padding-bottom: 25px;
+	-webkit-box-sizing: border-box;    box-sizing: border-box;
+	width: 100%;
+}
+.p-cosmetics_lineup .box a p{
+	text-align:center;
+	letter-spacing: 0.1rem;
+	margin-top: 31px;
+	font-size:2rem;
+	font-weight: bold;
+	font-family: "Century Gothic", century-gothic, "Avenir", sans-serif;
+}
+.p-cosmetics_lineup .box a p span {
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    opacity: 0.5;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 812px) {
+	.p-cosmetics_lineup .box a{
+		padding-bottom: 35px;
+	}
+	.p-cosmetics_lineup .box a p{
+		margin-top: 22px;
+		font-size:1.8rem;
+	}
+}
+.p-cosmetics h4.line-up{
+	font-size:2.8rem;
+	text-align:center;
+	margin-bottom: 45px;
+}
+@media only screen and (max-width: 812px) {
+	.p-cosmetics h4.line-up{
+	font-size:2rem;
+	margin-bottom: 35px;
+}
+}
+.p-cosmetics_palette{
+display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-bottom: 100px;
+}
+@media only screen and (max-width: 812px) {
+	.p-cosmetics_palette{
+		flex-wrap:wrap;
+		padding: 0 27px;
+		margin-bottom: 60px;
+		-webkit-box-sizing: border-box;    box-sizing: border-box;
+	}
+}
+.p-cosmetics_palette .image{
+	width: 39%;
+}
+.p-cosmetics_palette .image img{
+	opacity: 0;
+}
+.p-cosmetics_palette .image{
+	background-image: url(../img/palette/palette.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+@media only screen and (max-width: 812px) {
+	.p-cosmetics_palette .image{
+		width: 100%;
+		background-image: none;
+	}
+	.p-cosmetics_palette .image img{
+		width: 100%;
+		opacity: 1;
+	}
+}
+.p-cosmetics_palette .text{
+	padding: 86px 75px 90px 80px;
+	-webkit-box-sizing: border-box;    box-sizing: border-box;
+	background-color: #F8F8F8;
+	width: 61%;
+}
+@media only screen and (max-width: 812px) {
+	.p-cosmetics_palette .text{
+		width: 100%;
+		padding: 30px 25px 26px 25px;
+		-webkit-box-sizing: border-box;    box-sizing: border-box;
+	}
+}
+.p-cosmetics_palette .text .ttl{
+	font-size:2rem;
+	font-weight: bold;
+	margin-bottom: 32px;
+	letter-spacing: 0.8px;
+	font-family: "Century Gothic", century-gothic, "Avenir", sans-serif;
+}
+.p-cosmetics_palette .text .price{
+	font-size:1.5rem;
+	letter-spacing: 0.8px;
+    margin-top: 10px;
+	font-family: "Century Gothic", century-gothic, "Avenir", sans-serif;
+}
+.p-cosmetics_palette .text .paragraph{
+	font-size:1.4rem;
+	line-height: 1.8;
+	font-weight: bold;
+	margin-top: 42px;
+	letter-spacing: 0.7px;
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+.p-cosmetics_palette .text .note{
+	font-size:1.2rem;
+	line-height: 1.8;
+	margin-top: 35px;
+    letter-spacing: 0.5px;
+	opacity: 0.6;
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+@media only screen and (max-width: 812px) {
+	.p-cosmetics_palette .text .ttl{
+		font-size: 1.6rem;
+		margin-bottom: 15px;
+	}
+	.p-cosmetics_palette .text .price{
+		font-size: 1.3rem;
+		margin-top: 6px;
+	}
+	.p-cosmetics_palette .text .paragraph{
+		font-size: 1.2rem;
+		margin-top: 25px;
+	}
+	.p-cosmetics_palette .text .note{
+		font-size: 1.1rem;
+		margin-top: 18px;
+	}
+	.p-cosmetics .c-btn{
+		margin: 0 27px 45px 27px;
+	}
+}
+/* cosme.html */
+.p-cosme{
+	padding: 120px 100px 147px 100px;
+	overflow: hidden;
+}
+.p-cosme .p-cosmetics_image{
+	margin-top: 0;
+	margin-bottom: 	0;
+	padding:0 50px;
+	box-sizing: border-box;
+}
+.p-cosme .p-cosmetics_image img{
+	width: 100%;
+	max-height: calc(100vh - 240px);
+	-o-object-fit: contain;object-fit: contain;
+}
+.p-cosme .p-cosmetics_lineup{
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-bottom: 73px;
+}
+.p-cosme .p-cosmetics_lineup .box{
+	margin-right: 2.45%;
+}
+.p-cosme .p-cosmetics_lineup .box:nth-child(3n){
+	margin-right: 0;
+}
+.p-cosme .p-cosmetics_palette{
+	margin-bottom: 150px;
+}
+.p-cosme h4.line-up{
+	margin-bottom: 20px;
+	line-height: 	1.5;
+	letter-spacing: 0.8px;
+}
+.p-cosme h4.line-up sup{
+	font-size:1.6rem;
+}
+.p-cosme .line-up_sub{
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+	text-align: center;
+	font-size:1.6rem;
+	color:#888;
+	margin-bottom: 58px;
+}
+.p-cosme .p-cosmetics_palette .text .ttl sup{
+	font-size:1.5rem;
+}
+.p-cosme .p-cosmetics_palette_1 .image{
+	background-image: url(../img/palette/cosme_palette.jpg);
+}
+.p-cosme .p-cosmetics_palette_1{
+	margin-bottom: 150px;
+}
+.p-cosme .box_new div{
+	position: relative;
+}
+.p-cosme .box_new div:after{
+	position: absolute;
+	content: 'NEW';
+	width: 70px;
+	height: 70px;
+	top:15px;
+	left:15px;
+	border-radius: 50%;
+	background-color: #000;
+	color:#fff;
+	line-height: 70px;
+	font-family: "Century Gothic", century-gothic, "Avenir", sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size:1.5rem;
+}
+.p-cosme h3{
+	font-size:3.4rem;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 40px;
+	width: 100%;
+	letter-spacing: 0.8px;
+	position: absolute;
+    bottom: -90px;
+    left: -50px;
+}
+@media only screen and (max-width: 812px) {
+	.p-cosme h3{
+		position: relative;
+		bottom:inherit;
+		left:inherit;
+	}
+	.p-cosme .p-cosmetics_image{
+		padding: 0;
+	}
+	.p-cosme .p-cosmetics_palette{
+		margin-bottom: 84px;
+	}
+	.p-cosme .p-cosmetics_lineup{
+		margin-bottom: 20px;
+	}
+	.p-cosme .p-cosmetics_lineup .box{
+		margin-right: 0;
+	}
+	.p-cosme .p-cosmetics_lineup .box a{
+		padding-bottom: 40px;
+	}
+	.p-cosme .p-cosmetics_lineup .box a div{
+		display: inline-block;
+		width: 100%;
+	}
+	.p-cosme .p-cosmetics_palette_1{
+		margin-bottom: 75px;
+	}
+	.p-cosme .line-up_sub{
+		margin-bottom: 35px;
+		font-size:1.3rem;
+	}
+	.p-cosme h4.line-up{
+		margin-bottom: 	6px;
+		line-height: 1.4;
+	}
+	.p-cosme h4.line-up sup{
+		font-size:1.4rem;
+	}
+	.p-cosme .p-cosmetics_palette .text .ttl sup{
+	font-size:1.2rem;
+}
+	.p-cosme{
+		padding: 70px 0 79px 0;
+	}
+	.p-cosme h3{
+		font-size:2.2rem;
+		text-align: center;
+		margin-top:50px;
+	}
+	.p-cosme .box_new div:after{
+		width: 	60px;
+		height: 60px;
+		line-height: 60px;
+		font-size:1.3rem;
+	}
+}
+.onlyPC{
+	display: block;
+}
+.onlySP{
+	display: none;
+}
+@media only screen and (max-width: 812px) {
+	.onlyPC{
+		display: none;
+	}
+	.onlySP{
+		display: block;
+	}
+
+}
+
+.p-cosmewrap_mv{
+	padding-bottom: 10px;
+	margin-bottom: 220px;
+	height: calc(100vh - 240px);
+	width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+            position: relative;
+}
+.p-cosmewrap_mv .wrap{
+	width: 100%;
+}
+@media only screen and (max-width: 812px) {
+	.p-cosmewrap_mv{
+		height: inherit;
+	}
+	.p-cosme .p-cosmetics_image img{
+		max-height: inherit;
+		object-fit: inherit;
+	}
+	.p-cosmewrap_mv{
+		margin-bottom: 20px;
+	}
+}
+.js-custom-object-fit img{
+	opacity: 0;
+}
+.js-custom-object-fit{
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+@media only screen and (max-width: 812px) {
+	.js-custom-object-fit{
+		background-image: none;
+	}
+	.js-custom-object-fit img{
+	opacity: 1;
+}
+}
+
+.p-cosme .p-cosmetics_palette_2 .image{
+	background-image: url(../img/palette/le.jpg);
+}
+.p-cosme .p-cosmetics_palette_3 .image{
+	background-image: url(../img/palette/st.jpg);
+}
+
+.p-cosmetics_palette_4{
+margin-bottom: 230px !important;
+}
+
+
+@media only screen and (max-width: 812px) {
+	.p-cosmetics_palette_4{
+		margin-bottom: 168px !important;
+}
+}

@@ -1,0 +1,348 @@
+.p-jewelry{
+	padding: 0 100px 0 100px;
+}
+.p-jewelry_mv{
+	width: 	100%;
+	display: block;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100%;
+    align-items: center;
+}
+
+.p-jewelry_mv img{
+	max-width: calc(33% - 10px);
+	margin-right: 15px;
+	width: 100%;
+}
+.p-jewelry_mv2 img{
+	height: 100%;
+	margin-right: 15px;
+	max-width: none;
+	width: initial;
+
+}
+@media only screen and (max-width: 812px) {
+	
+	.p-jewelry_mv{
+		padding-top: 80px;
+		width: 70%;
+		margin:0;
+	}
+	.p-jewelry_mv img{
+		width: 100%;
+		max-width: 100%;
+		margin-right:0;
+	}
+}
+.p-jewelry_mv img:last-child{
+	margin-right: 0;
+}
+.p-jewelry_wrap{
+	width: 100%;
+	max-width: 1240px;
+    margin: 0 auto;
+    padding-bottom: 140px;
+}
+.p-jewelrywrap{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+	position: relative;
+	margin-bottom: 150px;
+}
+
+.mv_textwrap{
+	position: absolute;
+	bottom:40px;
+	width: 100%;
+	left:0;
+	color: #fff;
+}
+.mv_textwrap2{
+	color: #000;
+}
+
+.p-jewelrywrap h3{
+	font-size: 3.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.p-jewelrywrap .sub{
+	font-size:2rem;
+	text-align: center;
+	margin-bottom: 10px;
+}
+@media only screen and (max-width: 812px) {
+.mv_textwrap{
+		color: #000;
+}
+.p-jewelrywrap h3{
+	font-size: 2.2rem;
+}
+.p-jewelrywrap .sub {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+}
+
+@media only screen and (max-width: 812px) {
+	.p-jewelrywrap{
+	height: inherit;
+	margin-bottom:70px;
+}
+.mv_textwrap{
+	position: relative;
+	bottom:0;
+	margin-top: 30px;
+}
+}
+.p-jewelry_text{
+	font-size:18px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.6;
+	margin-bottom: 20px;
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+.p-jewelry_textsub{
+	font-size:16px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.5;
+	margin-bottom: 150px;
+	color:#888888;
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+.p-jewelry h4{
+	font-size:2.8rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 58px;
+}
+.p-jewelry_lineup {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	        justify-content: flex-start;
+	padding-bottom: 60px;
+	flex-wrap: wrap;
+}
+.p-jewelry_lineup .box{
+	width: 31.7%;
+}
+@media only screen and (max-width: 812px) {
+	.p-jewelry_lineup .box{
+		width: 100%;
+		text-align: center;
+	}
+	.p-jewelry_lineup .box img{
+		max-width:100%;
+	}
+}
+.p-jewelry_lineup .box a{
+	text-decoration: none;
+	display: block;
+	height: 100%;
+	padding-bottom: 51px;
+	-webkit-box-sizing: border-box;    box-sizing: border-box;
+	width: 100%;
+}
+.p-jewelry_lineup .box a p.name{
+	text-align:left;
+	letter-spacing: 0.1rem;
+	font-size:2rem;
+	margin-top: 27px;
+    line-height: 1.2;
+	font-weight: bold;
+	font-family: "Century Gothic", century-gothic, "Avenir", sans-serif;
+}
+.p-jewelry_lineup .box a p.price{
+	text-align:left;
+	letter-spacing: 0.1rem;
+	font-size:1.5rem;
+	margin-top: 2px;
+	font-weight: bold;
+	font-family: "Century Gothic", century-gothic, "Avenir", sans-serif;
+}
+.p-jewelry_lineup .box a p span {
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    opacity: 0.5;
+    margin-top: 7px;
+    display: inline-block;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+@media only screen and (max-width: 812px) {
+	.p-jewelry_lineup .box a{
+		padding-bottom: 35px;
+	}
+	.p-jewelry_lineup .box a p{
+		margin-top: 15px;
+		font-size:1.8rem;
+	}
+}
+
+.p-jewelry_lineup .box{
+	margin-right: 2.45%;
+}
+.p-jewelry_lineup .box:nth-child(3n) {
+    margin-right: 0;
+}
+.p-jewelry_lineup .box a p span {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    opacity: 0.6;
+    margin-top: 7px;
+    display: inline-block;
+}
+.p-jewelry_lineup .box_new div{
+	position: relative;
+}
+.p-jewelry_lineup .box_new div:after {
+    position: absolute;
+    content: 'NEW';
+    width: 70px;
+    height: 70px;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    line-height: 70px;
+    font-family: "Century Gothic", century-gothic, "Avenir", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.c-link2{
+	margin-top: 90px;
+}
+
+@media only screen and (max-width: 812px) {
+	.p-jewelry_lineup .box_new div:after {
+		    width: 60px;
+		    height: 60px;
+		    line-height: 60px;
+		    font-size: 1.3rem;
+	}
+	.p-jewelry_lineup{
+		padding:0 27px 45px;
+		box-sizing: border-box;
+	}
+	.p-jewelry_lineup .box a div {
+	    display: inline-block;
+	}
+	.p-jewelry h3 {
+	    font-size: 2.2rem;
+	    text-align: center;
+	    margin-top: 15px;
+	    margin-bottom: 40px;
+	}
+	.p-jewelry h4{
+	    font-size: 2rem;
+	    margin-bottom: 30px;
+	}
+	.p-jewelry{
+		padding: 0;
+	}
+}
+.onlyPC{
+	display: block;
+}
+.onlySP{
+	display: none;
+}
+@media only screen and (max-width: 812px) {
+	.onlyPC{
+		display: none;
+	}
+	.onlySP{
+		display: block;
+	}
+}
+@media only screen and (max-width: 812px) {
+	.p-jewelry_text{
+		font-size:1.3rem;
+		line-height: 1.6;
+		margin-bottom: 15px;
+		padding:0 30px;
+	}
+	.p-jewelry_lineup .box{
+		margin-right: 0;
+	}
+	.p-jewelry_mv img{
+		padding-top: 0px;
+		margin-bottom: 5px;
+	}
+	.p-jewelry h3{
+		padding-top: 0px;
+		margin-top: 0;
+		margin-bottom: 75px;
+	}
+	.p-jewelry .sub{
+		font-size:1.3rem;
+		margin-bottom: 3px;
+		margin-top: 30px;
+	}
+	.p-jewelry_lineup .box a p span{
+		font-size:12px;
+		margin-top: 0;
+	}
+	.p-jewelry .c-btn {
+    	margin: 0 27px 45px 27px;
+	}
+	.c-link2{
+		margin-top: 0;
+	}
+	.p-jewelry_wrap{
+		padding-bottom: 59px;
+	}
+	.p-jewelry_textsub{
+		font-size:13px;
+		padding:0 30px;
+		margin-bottom: 80px;
+	}
+	.p-jewelry_lineup .box a p.name{
+		font-size:1.8rem;
+		margin-top: 18px;
+		line-height: 1.2;
+	}
+	.p-jewelry_lineup .box a p.price{
+		font-size:1.3rem;
+		margin-top: 5px;
+	}
+}
+@media only screen and (max-width: 812px) {
+	.p-jewelry_text br{
+		display: none;
+	}
+}
+.c-footer{
+	background-color: #fff;
+	border-top: 1px solid #E5E5E5;
+}
+
+.p-jewelry_wrap .owl-carousel .owl-item {
+	width: 800px !important;
+}
+@media only screen and (max-width: 812px) {
+	.p-jewelry_wrap .owl-carousel .owl-item {
+		width: 300px !important;
+	}
+}
+
+@media only screen and (max-width: 812px) {
+	.p-danceheelwrap_slider {
+		overflow: hidden;
+	}
+}

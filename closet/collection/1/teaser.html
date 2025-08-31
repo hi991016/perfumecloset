@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html prefix="og: http://ogp.me/ns#" lang="ja"> <!--<![endif]-->
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WW6CW7X');</script>
+<!-- End Google Tag Manager -->
+	<meta charset="utf-8">
+	<title>Perfume Closet</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="shortcut icon" href="img/favicon.ico" >
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png" />
+
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Perfume Fashion Project" />
+	<meta name="keywords" content="Perfume,あ～ちゃん,かしゆか,のっち,a-chan,KASHIYUKA,NOCCHi" />
+
+	<meta property="og:title" content="Perfume Closet" />
+	<meta property="og:description" content="Perfume Fashion Project" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.perfume-web.jp/cam/closet/" />
+	<meta property="og:image" content="http://www.perfume-web.jp/cam/closet/img/ogImage.png" />
+	<meta property="og:site_name" content="Perfume Closet" />
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:url" value="http://www.perfume-web.jp/cam/closet/"/>
+	<meta name="twitter:site" content="@Perfume_Staff">
+	<meta name="twitter:title" content="Perfume Closet">
+	<meta name="twitter:description" content="Perfume Fashion Project">
+	<meta name="twitter:image" value="http://www.perfume-web.jp/cam/closet/img/ogImage.png"/>
+
+	<link rel="canonical" href="http://www.perfume-web.jp/cam/closet/" />
+
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body id="perfume">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WW6CW7X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="loading">
+	<div class="loading-inner">
+		<div class="loading-content">
+		<div>
+			<p class="txt">
+				<img class="t" src="img/loading.png" width="137">
+				<img src="img/loading_dot.gif" width="60">
+			</p>
+		</div>
+		</div>
+	</div>
+</div>
+<div id="container">
+	<section id="key">
+		<div class="videocontainer">
+			<div id="video01"></div>
+		</div>
+		<h1>
+			<p class="logo"><img data-src="img/key_logo.png" alt="Perfume Closet" width="460"></p>
+			<p class="sub"><img data-src="img/key_sub.png" alt="Perfume Fashion Project" width="227"></p>
+		</h1>
+		<div class="share teaser" style="bottom">
+			<p class="txt"><img data-src="img/footer_share_txt.png" alt="SHARE:" width="56"></p>
+			<a class="fb" href="javascript:void(0);"><img data-src="img/footer_share_fb.png" alt="Facebook" width="11"></a>
+			<a class="tw" href="javascript:void(0);"><img data-src="img/footer_share_tw.png" alt="Twitter" width="21"></a>
+		</div>
+	</section>
+</div>
+<script src="http://www.youtube.com/iframe_api"></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+
+var perfume = {};
+perfume.video01 = null;
+perfume.id01 = "kGH5i9TvOV0";
+perfume.isLoadedVideo = false;
+
+$(document).ready(function(){
+
+	$(window).resize(function(){
+		perfume.updateResize();
+	})
+	perfume.updateResize();
+	checkPage();
+
+	function checkPage(){
+		if(perfume.isLoadedVideo){
+
+			$("#key .sub").addClass("show");
+			setTimeout(function(){
+				$('#loading .logo').addClass('hide')
+				$('#loading').addClass('hide')
+
+				var ua = navigator.userAgent.toLowerCase();
+				var ver = navigator.appVersion.toLowerCase();
+				var isSafari = (ua.indexOf('safari') > -1) && (ua.indexOf('chrome') == -1);
+				if(!isSafari && !perfume.isSp){
+					perfume.video01.unMute();
+				}
+				perfume.video01.playVideo();
+
+			},200)
+			setTimeout(function(){
+				$('#loading').hide();
+				$("body").removeClass("loading");
+			},800)
+
+		}else{
+			setTimeout(checkPage,500);
+		}
+	}
+
+});
+
+perfume.updateResize = function(){
+	var old = perfume.isSp;
+	var current = false;
+	if(window.matchMedia){
+		if (window.matchMedia('(max-width: 1023px)').matches) {
+			current = true;
+		}else{
+			current = false;
+		}
+	}else{
+		current = false;
+	}
+
+	var ww = (window.innerWidth || document.documentElement.clientWidth || 0);
+	var wh = (window.innerHeight || document.documentElement.clientHeight || 0);
+
+	if(old==null || old != current){
+		perfume.isSp = current;
+		perfume.init();
+	}
+
+	$("#key").width(ww);
+	$("#key").height(wh);
+
+	var h = $("#key").height();
+	var w = $("#key").width();
+
+	var scw = w / 16;
+	var sch = h / 9;
+	var sc =  (scw > sch) ? scw : sch;
+
+	var sw = 16 * sc;
+	var sh = (9 * sc);
+
+	$('#key .videocontainer').css("width", sw + 'px');
+	$('#key .videocontainer').css("height", sh + 'px');
+	$('#key .videocontainer').css("top",(h / 2 - sh / 2 )+'px');
+	$('#key .videocontainer').css("left",(w / 2 - sw / 2)+'px');
+
+}
+
+perfume.init =function(){
+
+	if(perfume.isSp){
+		perfume.initSP();
+	}else{
+		perfume.initPC();
+	}
+
+	$(".share a").off('click').on("click",function(){
+		var shareURL = "http://www.perfume-web.jp/cam/closet/";
+		var sharetext = "Perfume Closet";
+
+		if($(this).hasClass("tw")){
+			perfume.shareURL("twitter",shareURL,sharetext,"prfm,PerfumeCloset");
+		}else if($(this).hasClass("fb")){
+			perfume.shareURL("facebook",shareURL,sharetext);
+		}else if($(this).hasClass("ln")){
+			perfume.shareURL("line",shareURL,sharetext);
+		}
+
+
+	});
+}
+
+perfume.initSP = function(){
+	//device init
+	$("img").each(function(){
+		p = $(this).attr("data-src");
+		if(p!=undefined){
+			p = p.replace(".png","_2x.png");
+			p = p.replace(".jpg","_2x.jpg");
+			// //console.log(p)
+			$(this).attr("src",p)
+		}
+	})
+}
+
+perfume.initPC = function(){
+	$("img").each(function(){
+		p = $(this).attr("data-src");
+		$(this).attr("src",p)
+	})
+}
+
+perfume.shareURL = function(provider,shareUrl,sharetext,hash){
+
+	if(provider == "twitter"){
+		var url = "https://twitter.com/intent/tweet"
+		url += "?text=" + encodeURIComponent(sharetext);
+		url += "&url=" + encodeURIComponent(shareUrl);
+		url += "&hashtags=" + encodeURIComponent(hash);
+	}else if(provider == "facebook"){
+		var url = "https://www.facebook.com/sharer/sharer.php"
+		url += "?u=" + encodeURIComponent(shareUrl);
+	}else if(provider == "line"){
+		var url = "https://line.me/R/msg/text/?"
+		url += encodeURIComponent(shareUrl)
+		url += " " + encodeURIComponent(sharetext);
+	}
+	window.open(url);
+}
+
+function onYouTubeIframeAPIReady() {
+
+	perfume.video01 = new YT.Player(
+		"video01",
+		{
+			height: '100%',
+			width: '100%',
+			videoId: perfume.id01,
+			wmode: 'transparent',
+			playerVars:{
+				controls:0,
+				showinfo:0,
+				disablekb:1,
+				autoplay:0,
+				rel:0,
+				modestbranding:1,
+				frameborder:"0",
+				playsinline:1
+			},
+			events:{
+				'onReady': function (event) {
+					perfume.video01.mute();
+					perfume.isLoadedVideo = true;
+				},
+				'onStateChange': function (event) {
+					if(event.data == YT.PlayerState.PLAYING ){
+						$("#key .videocontainer").css("opacity","1.0");
+						$("#key h1").css("opacity","0.0");
+					}else if(event.data == YT.PlayerState.ENDED){
+						console.log("ended");
+						perfume.video01.seekTo(0);
+						perfume.video01.playVideo();
+					}
+				}
+			}
+		}
+	);
+
+}
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12742550-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-12742550-2');
+</script>
+
+</body>
+</html>

@@ -40,6 +40,7 @@
         if(strstr($url,'collection/7')==true) $titlePage = '#7 ｜ ' . $titlePage;
         if(strstr($url,'collection/8')==true) $titlePage = '#8 ｜ ' . $titlePage;
         if(strstr($url,'collection/9')==true) $titlePage = '#9 ｜ ' . $titlePage;
+        if(strstr($url,'collection/10')==true) $titlePage = '#10 ｜ ' . $titlePage;
 		if(strstr($url,'collection/cosme')==true) $titlePage = 'Perfume Closet Cosme ｜ ' . $titlePage;
 		if(strstr($url,'collection/jewelry')==true) $titlePage = 'Watch / Jewelry ｜ ' . $titlePage;
         if(strstr($url,'collection/p-dot-mask')==true) $titlePage = 'P-dot Mask ｜ ' . $titlePage;
@@ -163,6 +164,13 @@
     <link rel="stylesheet" href="/cam/closet/asset/css/jquery.fullpage.min.css">
     <?php break; ?>
 
+    <?php case '/cam/closet/collection/10/' : ?>
+    <link rel="stylesheet" href="/cam/closet/asset/css/style.css?v=1">
+    <link rel="stylesheet" href="/cam/closet/asset/css/phase10.css?v=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="/cam/closet/asset/css/jquery.fullpage.min.css">
+    <?php break; ?>
+
     <?php case '/cam/closet/collection/cosme/' : ?>
     <link rel="stylesheet" href="/cam/closet/asset/css/mask.css">
     <link rel="stylesheet" href="/cam/closet/asset/css/palette.css">
@@ -266,16 +274,16 @@
 <?php endif; ?>
 
     <header class="c-header js-header">
-        <div class="c-header__logo">
+        <div class="c-header__logo" data-header-change>
             <a href="/cam/closet/">
                 <img src="/cam/closet/asset/img/common/logo.png" alt="Logo">
             </a>
         </div>
         <div class="c-header_wrapright">
-            <a href="https://www.instagram.com/perfumeclosetofficial/" target="_blank" class="c-header_insta">
+            <a href="https://www.instagram.com/perfumeclosetofficial/" target="_blank" class="c-header_insta" data-header-change>
                 <!-- <span>Official Instagram Open !</span> -->
             </a>
-            <button class="c-menubtn js-menubtn">
+            <button class="c-menubtn js-menubtn" data-header-change>
                 <span></span>
                 <span></span>
             </button>
@@ -292,6 +300,7 @@
 
                         <ul class="accordion-panel">
                             <li><a href="/cam/closet/collection/">All</a></li>
+                            <li><a href="/cam/closet/collection/10/">#10</a></li>
                             <li><a href="/cam/closet/collection/9/">#9</a></li>
                             <li><a href="/cam/closet/collection/8/">#8</a></li>
                             <li><a href="/cam/closet/collection/7/">#7</a></li>

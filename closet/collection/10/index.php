@@ -38,7 +38,7 @@
                         </g>
                     </svg>
                 </div>
-                <div class="fv_detail">
+                <div class="fv_detail pc-only">
                     <h2>[ Inspired by ]</h2>
                     <p>
                         Nebula Romance<br />

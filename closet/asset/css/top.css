@@ -65,16 +65,16 @@
 
 .p-hero__heading a {
   margin-top: 38px;
-    width: 300px;
-    height: 50px;
-    display: block;
-    text-align: center;
-    border: 1px solid #fff;
-    border-radius: 100px;
-    line-height: 47px;
-    font-size: 1.8rem;
-    font-weight: bold;
-    letter-spacing: 0.8px;
+  width: 300px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  line-height: 47px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.8px;
   transform: 0.3s ease-in-out;
 }
 .p-hero__heading a:hover,
@@ -85,7 +85,9 @@
 }
 
 .p-hero__heading a > span {
-  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック",
+    YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", sans-serif;
 }
 
 .p-hero__new {
@@ -119,6 +121,11 @@
   position: absolute;
   right: 50%;
   transform: translateX(50%);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
 }
 
 .p-hero__more {
@@ -128,7 +135,9 @@
 
 .p-hero__new span {
   margin-left: 20px;
-  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック",
+    YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", sans-serif;
 }
 @media only screen and (max-width: 820px) {
   .only-pc {
@@ -176,7 +185,7 @@
   }
   .p-hero__info--date {
     position: unset;
-    transform: translateX(0)
+    transform: translateX(0);
   }
 }
 
@@ -256,7 +265,9 @@
 .p-collect__desc p {
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック",
+    YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", sans-serif;
   letter-spacing: 0.32px;
   line-height: 1.93;
 }
@@ -280,7 +291,9 @@
 }
 
 .p-collect__btn > span {
-  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック",
+    YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", sans-serif;
   margin-left: 10px;
 }
 
@@ -301,9 +314,9 @@
   height: auto;
 }
 @media only screen and (max-width: 820px) {
-.p-collect__item > img {
-  border-radius: 10px;
-}
+  .p-collect__item > img {
+    border-radius: 10px;
+  }
 }
 .p-collect__item {
   transition: 0.3s ease-in-out;
@@ -520,14 +533,17 @@
   .swiper-button-prev:after {
     margin-left: -2px;
   }
-  .swiper-button-next:after, .swiper-button-prev:after {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
     font-size: 1.4rem;
     margin-top: 1px;
   }
-  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
     right: 7px;
   }
-  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
     left: 7px;
   }
   .p-item__content p {
@@ -563,10 +579,10 @@
   margin-left: 2px;
 }
 @media only screen and (max-width: 820px) {
-.p-concept__subtitle img:first-child {
-  margin-left: 1px;
-  width: 276px;
-}
+  .p-concept__subtitle img:first-child {
+    margin-left: 1px;
+    width: 276px;
+  }
 }
 .p-concept__subtitle span {
   font-size: 4.9rem;
@@ -577,7 +593,9 @@
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3;
-  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック",
+    YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", sans-serif;
 }
 
 .p-concept__desc span {
@@ -677,7 +695,9 @@
 .collection-top__desc p {
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック",
+    YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", sans-serif;
   letter-spacing: 0.32px;
   line-height: 1.93;
 }
@@ -703,7 +723,9 @@
 }
 
 .collection-top__btn > span {
-  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-family: "Century Gothic", century-gothic, "Avenir", "游ゴシック",
+    YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", sans-serif;
   margin-left: 10px;
 }
 

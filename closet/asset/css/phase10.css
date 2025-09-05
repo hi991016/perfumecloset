@@ -12,12 +12,14 @@
 }
 
 img.lazy {
+  will-change: transform;
+  /* will-change: opacity transform;
   opacity: 0;
-  transition: opacity 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: opacity 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+}
 
-  &.loaded {
-    opacity: 1;
-  }
+img.lazy.loaded {
+  opacity: 1;
 }
 
 html.lenis,
@@ -91,6 +93,10 @@ picture img {
   transition-property: transform;
   transition-duration: 1.4s;
   transition-timing-function: cubic-bezier(0, 0.185, 0.25, 1);
+    /* transition-property: opacity, transform;
+  transition-duration: 0.7s, 1.4s;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955),
+    cubic-bezier(0, 0.185, 0.25, 1); */
 }
 
 @media only screen and (max-width: 820px) {
@@ -522,7 +528,7 @@ picture img {
   .p-phase10 .look .look_detail {
     margin-top: 25px;
     padding: 0 var(--padsp) !important;
-    gap: 20px;
+    gap: 25px;
   }
 
   .p-phase10 .look .look_detail.--p-sp-none {

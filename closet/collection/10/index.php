@@ -7,9 +7,9 @@
         <div class="fv_container">
             <div class="fv_mainvisual">
                 <picture>
-                    <source media="(max-width: 820px)" data-srcset="/cam/closet/asset/img/10/fv_sp.jpg">
-                    <img class="lazy" data-src="/cam/closet/asset/img/10/fv_pc.jpg" alt="Collection 10" width="1440"
-                        height="825" loading="lazy" draggable="false">
+                    <source media="(max-width: 820px)" srcset="/cam/closet/asset/img/10/fv_sp.jpg">
+                    <img class="lazy" src="/cam/closet/asset/img/10/fv_pc.jpg" alt="Collection 10" width="1440"
+                        height="825" draggable="false">
                 </picture>
             </div>
             <div class="fv_bottom">
@@ -58,8 +58,8 @@
             <div class="look_article --article1">
                 <div class="look_thumb" data-anim-img>
                     <picture>
-                        <img class="lazy" data-src="/cam/closet/asset/img/10/look_01.jpg" alt="Look 1" width="840"
-                            height="560.43" loading="lazy" draggable="false">
+                        <img class="lazy" src="/cam/closet/asset/img/10/look_01.jpg" alt="Look 1" width="840"
+                            height="560.43" draggable="false">
                     </picture>
                 </div>
                 <div class="look_detail --pl">
@@ -103,8 +103,8 @@
                 <div class="look_col">
                     <div class="look_thumb" data-anim-img>
                         <picture>
-                            <img class="lazy" data-src="/cam/closet/asset/img/10/look_02.jpg" alt="Look 2" width="450"
-                                height="562.89" loading="lazy" draggable="false">
+                            <img class="lazy" src="/cam/closet/asset/img/10/look_02.jpg" alt="Look 2" width="450"
+                                height="562.89" draggable="false">
                         </picture>
                     </div>
                     <div class="look_detail --p-sp-none">
@@ -166,8 +166,8 @@
             <div class="look_article --article3">
                 <div class="look_thumb" data-anim-img>
                     <picture>
-                        <img class="lazy" data-src="/cam/closet/asset/img/10/look_03.jpg" alt="Look 3" width="1289.51"
-                            height="860.33" loading="lazy" draggable="false">
+                        <img class="lazy" src="/cam/closet/asset/img/10/look_03.jpg" alt="Look 3" width="1289.51"
+                            height="860.33" draggable="false">
                     </picture>
                 </div>
                 <div class="look_detail">
@@ -191,9 +191,9 @@
                     <div class="look_group_items">
                         <div class="look_thumb --thumb1" data-anim-img>
                             <picture>
-                                <source media="(min-width: )" data-srcset="/cam/closet/asset/img/10/look_04_02.jpg">
-                                <img class="lazy" data-src="/cam/closet/asset/img/10/look_04.jpg" alt="Look 4"
-                                    width="632" height="421.66" loading="lazy" draggable="false">
+                                <source media="(max-width: 820px)" srcset="/cam/closet/asset/img/10/look_04_02.jpg">
+                                <img class="lazy" src="/cam/closet/asset/img/10/look_04.jpg" alt="Look 4" width="632"
+                                    height="421.66" draggable="false">
                             </picture>
                         </div>
                         <div class="look_detail --pl">
@@ -248,10 +248,9 @@
                     <div class="look_group_items">
                         <div class="look_thumb --thumb2" data-anim-img>
                             <picture>
-                                <source media="(max-width: 820px)"
-                                    data-srcset="/cam/closet/asset/img/10/look_04.jpg">
-                                <img class="lazy" data-src="/cam/closet/asset/img/10/look_04_02.jpg" alt="Look 4"
-                                    width="623" height="799" loading="lazy" draggable="false">
+                                <source media="(max-width: 820px)" srcset="/cam/closet/asset/img/10/look_04.jpg">
+                                <img class="lazy" src="/cam/closet/asset/img/10/look_04_02.jpg" alt="Look 4" width="623"
+                                    height="799" draggable="false">
                             </picture>
                         </div>
                     </div>
@@ -263,16 +262,16 @@
                     <div class="look_group_items pc-only">
                         <div class="look_thumb --thumb1" data-anim-img>
                             <picture>
-                                <img class="lazy" data-src="/cam/closet/asset/img/10/look_05.jpg" alt="Look 5"
-                                    width="620" height="775.54" loading="lazy" draggable="false">
+                                <img class="lazy" src="/cam/closet/asset/img/10/look_05.jpg" alt="Look 5" width="620"
+                                    height="775.54" draggable="false">
                             </picture>
                         </div>
                     </div>
                     <div class="look_group_items">
                         <div class="look_thumb --thumb2" data-anim-img>
                             <picture>
-                                <img class="lazy" data-src="/cam/closet/asset/img/10/look_05.jpg" alt="Look 5"
-                                    width="400" height="500.35" loading="lazy" draggable="false">
+                                <img class="lazy" src="/cam/closet/asset/img/10/look_05.jpg" alt="Look 5" width="400"
+                                    height="500.35" draggable="false">
                             </picture>
                         </div>
                         <div class="look_detail --p-sp-none">
@@ -293,8 +292,8 @@
                     <div class="look_group_items">
                         <div class="look_thumb --thumb1" data-anim-img>
                             <picture>
-                                <img class="lazy" data-src="/cam/closet/asset/img/10/look_06.jpg" alt="Look 6"
-                                    width="520" height="650.46" loading="lazy" draggable="false">
+                                <img class="lazy" src="/cam/closet/asset/img/10/look_06.jpg" alt="Look 6" width="520"
+                                    height="650.46" draggable="false">
                             </picture>
                         </div>
                         <div class="look_detail">
@@ -315,8 +314,8 @@
                     <div class="look_group_items pc-only">
                         <div class="look_thumb --thumb2" data-anim-img>
                             <picture>
-                                <img class="lazy" data-src="/cam/closet/asset/img/10/look_06.jpg" alt="Look 6"
-                                    width="670.02" height="838.12" loading="lazy" draggable="false">
+                                <img class="lazy" src="/cam/closet/asset/img/10/look_06.jpg" alt="Look 6" width="670.02"
+                                    height="838.12" draggable="false">
                             </picture>
                         </div>
                     </div>
@@ -328,8 +327,8 @@
                     <div class="look_group_items pc-only">
                         <div class="look_thumb --thumb1" data-anim-img>
                             <picture>
-                                <img class="lazy" data-src="/cam/closet/asset/img/10/look_07.jpg" alt="Look 7"
-                                    width="720" height="900.63" loading="lazy" draggable="false">
+                                <img class="lazy" src="/cam/closet/asset/img/10/look_07.jpg" alt="Look 7" width="720"
+                                    height="900.63" draggable="false">
                             </picture>
                         </div>
                     </div>
@@ -337,8 +336,8 @@
                         <div class="look_group_wrap">
                             <div class="look_thumb --thumb2" data-anim-img>
                                 <picture>
-                                    <img class="lazy" data-src="/cam/closet/asset/img/10/look_07.jpg" alt="Look 7"
-                                        width="450" height="562.89" loading="lazy" draggable="false">
+                                    <img class="lazy" src="/cam/closet/asset/img/10/look_07.jpg" alt="Look 7"
+                                        width="450" height="562.89" draggable="false">
                                 </picture>
                             </div>
                             <div class="look_detail">
@@ -383,7 +382,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <script src="/cam/closet/asset/js/jquery.fullpage.min.js"></script>
-<script type="text/javascript" src="/cam/closet/asset/js/scrolloverflow.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a370cb7f0cda35b"></script>
@@ -401,7 +399,7 @@
 </script>
 
 <script src="https://unpkg.com/lenis@1.3.10/dist/lenis.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@19.1.3/dist/lazyload.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@19.1.3/dist/lazyload.min.js"></script> -->
 <script src="/cam/closet/asset/js/phase10.js"></script>
 </body>
 

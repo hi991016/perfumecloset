@@ -1,9 +1,9 @@
 /* -------------------------------- lazy load ------------------------------- */
 
-const ll = new LazyLoad({
-  threshold: 100,
-  elements_selector: ".lazy",
-});
+// const ll = new LazyLoad({
+//   threshold: 300,
+//   elements_selector: ".lazy",
+// });
 
 /* ---------------------------------- lenis --------------------------------- */
 
@@ -43,9 +43,8 @@ const [animFade, animImg] = [
 const initScrollTrigger = (arr) => {
   arr.forEach((elem) => {
     const distInView =
-      elem.getBoundingClientRect().top - window.innerHeight + 50;
+    elem.getBoundingClientRect().top - window.innerHeight + 20;
     distInView < 0 && elem.classList.add("--show");
-    // elem.classList.toggle("--show", distInView < 0);
   });
 };
 

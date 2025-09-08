@@ -357,6 +357,7 @@ picture img {
   .p-phase10 .look .--article4 .look_group {
     display: flex;
     flex-direction: column-reverse;
+    align-items: unset;
     gap: 50px;
   }
 

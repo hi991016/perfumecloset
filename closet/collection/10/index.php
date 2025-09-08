@@ -40,7 +40,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="fv_detail pc-only">
+                <div class="fv_detail only-pc">
                     <h2>[ Inspired by ]</h2>
                     <p>
                         Nebula Romance<br />
@@ -69,33 +69,33 @@
                         <h3>a-chan</h3>
                         <div class="look_detail_items">
                             <p>Peplum Trench Coat / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br
-                                    class="sp-only" /> - ¥37,000 inc.tax</p>
-                            <a href="#" target="_blank">buy</a>
+                                    class="only-sp" /> - ¥37,000 inc.tax</p>
+                            <a href="https://www.asmart.jp/p_90050614" target="_blank">buy</a>
                         </div>
                         <div class="look_detail_items">
                             <p>Sheer Cut Out Top - ¥12,000 inc.tax</p>
-                            <a href="#" target="_blank">buy</a>
+                            <a href="https://www.asmart.jp/p_90050643" target="_blank">buy</a>
                         </div>
                     </div>
                     <div class="look_detail_list">
                         <h3>KASHIYUKA</h3>
                         <div class="look_detail_items">
                             <p>Trench Mini Dress / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br
-                                    class="sp-only" /> - ¥34,000
+                                    class="only-sp" /> - ¥34,000
                                 inc.tax</p>
-                            <a href="#" target="_blank">buy</a>
+                            <a href="https://www.asmart.jp/p_90050615" target="_blank">buy</a>
                         </div>
                     </div>
                     <div class="look_detail_list">
                         <h3>NOCCHi</h3>
                         <div class="look_detail_items">
-                            <p>Trench Coat / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br class="sp-only" />
+                            <p>Trench Coat / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br class="only-sp" />
                                 - 37,000 inc.tax</p>
-                            <a href="#" target="_blank">buy</a>
+                            <a href="https://www.asmart.jp/p_90050613" target="_blank">buy</a>
                         </div>
                         <div class="look_detail_items">
                             <p>Sheer Cut Out Top - ¥12,000 inc.tax</p>
-                            <a href="#" target="_blank">buy</a>
+                            <a href="https://www.asmart.jp/p_90050644" target="_blank">buy</a>
                         </div>
                     </div>
                 </div>
@@ -113,52 +113,52 @@
                         <div class="look_detail_list">
                             <h3>a-chan</h3>
                             <div class="look_detail_items">
-                                <p>Blouse / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br class="sp-only" /> -
+                                <p>Blouse / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br class="only-sp" /> -
                                     ¥26,000 inc.tax</p>
-                                <a href="#" target="_blank">buy</a>
+                                <a href="https://www.asmart.jp/p_90050626" target="_blank">buy</a>
                             </div>
                             <div class="look_detail_items">
                                 <p>Asymmetry Skirt / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br
-                                        class="sp-only" /> -
+                                        class="only-sp" /> -
                                     ¥30,000 inc.tax</p>
-                                <a href="#" target="_blank">buy</a>
+                                <a href="https://www.asmart.jp/p_90050630" target="_blank">buy</a>
                             </div>
                         </div>
                         <div class="look_detail_list">
                             <h3>KASHIYUKA</h3>
                             <div class="look_detail_items">
-                                <p>Bustier / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br class="sp-only" />
+                                <p>Bustier / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br class="only-sp" />
                                     - ¥18,000 inc.tax
                                 </p>
-                                <a href="#" target="_blank">buy</a>
+                                <a href="https://www.asmart.jp/p_90050627" target="_blank">buy</a>
                             </div>
                             <div class="look_detail_items">
                                 <p>Sheer Cut Out Top - ¥12,000 inc.tax</p>
-                                <a href="#" target="_blank">buy</a>
+                                <a href="https://www.asmart.jp/p_90050643" target="_blank">buy</a>
                             </div>
                             <div class="look_detail_items">
-                                <p>Skirt / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br class="sp-only" /> -
+                                <p>Skirt / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br class="only-sp" /> -
                                     ¥30,000 inc.tax
                                 </p>
-                                <a href="#" target="_blank">buy</a>
+                                <a href="https://www.asmart.jp/p_90050628" target="_blank">buy</a>
                             </div>
                         </div>
                         <div class="look_detail_list">
                             <h3>NOCCHi</h3>
                             <div class="look_detail_items">
-                                <p>Blouson / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br class="sp-only" />
+                                <p>Blouson / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br class="only-sp" />
                                     - ¥27,000 inc.tax</p>
-                                <a href="#" target="_blank">buy</a>
+                                <a href="https://www.asmart.jp/p_90050616" target="_blank">buy</a>
                             </div>
                             <div class="look_detail_items">
                                 <p>Sheer Gathered Top ¥12,000-</p>
-                                <a href="#" target="_blank">buy</a>
+                                <a href="https://www.asmart.jp/p_90050643" target="_blank">buy</a>
                             </div>
                             <div class="look_detail_items">
-                                <p>Layered Skirt Pants / Inspired by <span class="--yu-fonts">ネビュラロマンス</span><br
-                                        class="sp-only" />
+                                <p>2way Layered Skirt Pants / Inspired by <br
+                                        class="only-sp" /><span class="--yu-fonts">ネビュラロマンス</span>
                                     - ¥32,000 inc.tax</p>
-                                <a href="#" target="_blank">buy</a>
+                                <a href="https://www.asmart.jp/p_90050618" target="_blank">buy</a>
                             </div>
                         </div>
                     </div>
@@ -177,12 +177,12 @@
                         <h3>All</h3>
                         <div class="look_detail_items">
                             <p>Bustier / Inspired by Perfume “COD3 OF P3RFUM3 ZOZ5” Asia Tour 2024 - ¥18,000 inc.tax</p>
-                            <a href="#" target="_blank">buy</a>
+                            <a href="https://www.asmart.jp/p_90050634" target="_blank">buy</a>
                         </div>
                         <div class="look_detail_items">
-                            <p>Shirts / Inspired by Perfume “COD3 OF P3RFUM3 ZOZ5” Asia Tour 2024 - ¥25,000
+                            <p>Shirts Dress / Inspired by Perfume “COD3 OF P3RFUM3 ZOZ5” Asia Tour 2024 - ¥25,000
                                 inc.tax</p>
-                            <a href="#" target="_blank">buy</a>
+                            <a href="https://www.asmart.jp/p_90050633" target="_blank">buy</a>
                         </div>
                     </div>
                 </div>
@@ -203,46 +203,46 @@
                                 <h3>a-chan</h3>
                                 <div class="look_detail_items">
                                     <p>Inked Out Cropped Zip Up Hoodie - ¥18,000 inc.tax</p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050648" target="_blank">buy</a>
                                 </div>
                                 <div class="look_detail_items">
-                                    <p>2way False Collar / Inspired by GISHIKI<br class="sp-only" /> - ¥11,000 inc.tax
+                                    <p>2way False Collar / Inspired by GISHIKI<br class="only-sp" /> - ¥11,000 inc.tax
                                     </p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050636" target="_blank">buy</a>
                                 </div>
                                 <div class="look_detail_items">
                                     <p>Inked Out Sweat Pants - ¥19,000 inc.tax</p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050649" target="_blank">buy</a>
                                 </div>
                             </div>
                             <div class="look_detail_list">
                                 <h3>KASHIYUKA</h3>
                                 <div class="look_detail_items">
                                     <p>Vintage Shift Cropped Pullover - ¥13,000 inc.tax</p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050651" target="_blank">buy</a>
                                 </div>
                                 <div class="look_detail_items">
                                     <p>Dress / Inspired by GISHIKI - ¥20,000 inc.tax</p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050638" target="_blank">buy</a>
                                 </div>
                                 <div class="look_detail_items">
                                     <p>Vintage Shift Sweat Pants - ¥17,000 inc.tax</p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050656" target="_blank">buy</a>
                                 </div>
                             </div>
                             <div class="look_detail_list">
                                 <h3>NOCCHi</h3>
                                 <div class="look_detail_items">
                                     <p>Vintage Shift Tee - ¥9,000 inc.tax</p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050652" target="_blank">buy</a>
                                 </div>
                                 <div class="look_detail_items">
                                     <p>2way Vest / Inspired by GISHIKI - ¥18,000 inc.tax</p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050640" target="_blank">buy</a>
                                 </div>
                                 <div class="look_detail_items">
                                     <p>Vintage Shift Sweat Pants - ¥17,000 inc.tax</p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050656" target="_blank">buy</a>
                                 </div>
                             </div>
                         </div>
@@ -261,7 +261,7 @@
             <!-- look 5 -->
             <div class="look_article --article5">
                 <div class="look_group">
-                    <div class="look_group_items pc-only">
+                    <div class="look_group_items only-pc">
                         <div class="look_thumb --thumb1" data-anim-img>
                             <picture>
                                 <img class="lazy" src="/cam/closet/asset/img/10/look_05.jpg" alt="Look 5" width="620"
@@ -280,8 +280,8 @@
                             <div class="look_detail_list">
                                 <h3>a-chan</h3>
                                 <div class="look_detail_items">
-                                    <p>2way Blouse / Inspired by GISHIKI<br class="sp-only" /> - ¥19,000 inc.tax</p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <p>2way Blouse / Inspired by GISHIKI<br class="only-sp" /> - ¥19,000 inc.tax</p>
+                                    <a href="https://www.asmart.jp/p_90050639" target="_blank">buy</a>
                                 </div>
                             </div>
                         </div>
@@ -302,18 +302,18 @@
                             <div class="look_detail_list">
                                 <h3>KASHIYUKA</h3>
                                 <div class="look_detail_items">
-                                    <p>2way False Collar / Inspired by GISHIKI<br class="sp-only" /> - ¥11,000 inc.tax
+                                    <p>2way False Collar / Inspired by GISHIKI<br class="only-sp" /> - ¥11,000 inc.tax
                                     </p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050635" target="_blank">buy</a>
                                 </div>
                                 <div class="look_detail_items">
                                     <p>Dress / Inspired by GISHIKI - ¥20,000 inc.tax</p>
-                                    <a href="#" target="_blank">buy</a>
+                                    <a href="https://www.asmart.jp/p_90050637" target="_blank">buy</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="look_group_items pc-only">
+                    <div class="look_group_items only-pc">
                         <div class="look_thumb --thumb2" data-anim-img>
                             <picture>
                                 <img class="lazy" src="/cam/closet/asset/img/10/look_06.jpg" alt="Look 6" width="670.02"
@@ -326,7 +326,7 @@
             <!-- look 7 -->
             <div class="look_article --article7">
                 <div class="look_group">
-                    <div class="look_group_items pc-only">
+                    <div class="look_group_items only-pc">
                         <div class="look_thumb --thumb1" data-anim-img>
                             <picture>
                                 <img class="lazy" src="/cam/closet/asset/img/10/look_07.jpg" alt="Look 7" width="720"
@@ -347,11 +347,11 @@
                                     <h3>NOCCHi</h3>
                                     <div class="look_detail_items">
                                         <p>Sheer Gathered Top - ¥12,000 inc.tax</p>
-                                        <a href="#" target="_blank">buy</a>
+                                        <a href="https://www.asmart.jp/p_90050645" target="_blank">buy</a>
                                     </div>
                                     <div class="look_detail_items">
-                                        <p>2way Vest / Inspired by GISHIKI<br class="sp-only" /> - ¥18,000 inc.tax</p>
-                                        <a href="#" target="_blank">buy</a>
+                                        <p>2way Vest / Inspired by GISHIKI<br class="only-sp" /> - ¥18,000 inc.tax</p>
+                                        <a href="https://www.asmart.jp/p_90050639" target="_blank">buy</a>
                                     </div>
                                 </div>
                             </div>
